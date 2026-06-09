@@ -1,0 +1,194 @@
+
+.to-top {
+  background-color: #0d6efd;
+  padding: 0px;
+  position: fixed;
+  bottom: 30px;
+  left: 30px; 
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  padding:30px;
+  border-radius:50px;
+}
+.to-top a{
+  color: #ffffff;
+  font-size:25px;
+}
+
+.navbar-brand{
+  font-size: 30px;
+}
+
+.navbar-nav .nav-link {
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0d6efd !important; 
+}
+
+
+.h5{
+  font-size:30px;
+}
+.blockquote{
+font-size:20px;
+}
+
+.btn{
+  width:100px;
+  height:45px;
+}
+
+.table-btn{
+  margin-top:15px;
+  width:80px;
+  font-size:20px;
+  font-weight: bold;
+}
+
+tr{
+  font-size:17px;
+  font-weight: bold;
+}
+
+tbody{
+  background-color: #0d6dfd4e;
+}
+
+td i {
+  font-size:20px;
+  color:green;
+}
+
+.bi-x-square-fill{
+  color: red;
+}
+
+.icons{
+  padding:15px;
+  display:inline-flex;
+  border-radius:10px;
+  color: rgb(55, 55, 236);
+  background-color: rgba(222, 220, 220, 0.822);
+}
+
+.card2{
+  transition: all 400ms ease;
+}
+
+.card2 tbody tr,
+.card2 table,
+.card2 button,
+.card2 .bi-motherboard{
+  transition: all 400ms ease ;
+}
+
+.card2:hover{
+  padding:20px;
+  transform: scale(1.1);
+  background-color: rgb(6, 6, 69);
+  color: aliceblue;
+}
+
+.card2:hover button{
+  border: 1px solid white;
+  background-color: rgb(6, 6, 69);
+}
+
+.card2:hover button:hover{
+  color: black;
+  background-color: white;
+}
+
+.card2:hover table{
+  color: white;
+}
+
+.card2:hover tbody tr{
+  background-color: #e7f1ff;
+}
+
+.card2:hover .bi-motherboard{
+  background-color: #e7f1ff;
+}
+
+
+
+
+
+.card1 {
+  position: relative;
+
+  border: none !important;
+  overflow: hidden; 
+  background: white; 
+}
+
+.card1::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: conic-gradient(transparent, #0d6efd, transparent 30%);
+  animation: rotate-border 3s linear infinite;
+  z-index: 0;
+}
+
+.card1::after {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  background: white;
+  border-radius: var(--bs-border-radius); 
+  z-index: 1;
+}
+
+.card-body {
+  position: relative;
+  z-index: 2;
+}
+
+@keyframes rotate-border {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.carousel-inner .carousel-item img {
+    height: 500px;    
+    width: auto;         
+    object-fit: contain;  
+    margin: 0 auto;   
+}
+
+.carousel-caption {
+    position: static; 
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+ul{
+  margin: 10px 0px;
+  padding:0px;
+}
+
+ul li{
+  list-style-type: none;
+  margin: 10px 0px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size:17px;
+}
