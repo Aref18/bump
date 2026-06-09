@@ -74,6 +74,10 @@ Bump یک قالب وب‌سایت مدرن و واکنش‌گرا (Responsive L
 * طراحی مدرن با رنگ‌بندی Bootstrap Primary
 * تجربه کاربری روان و زیبا
 
+  ## پیش نمایش
+  ![bump](./assets/images/preview.png)
+
+
 ## 🚀 نحوه اجرا
 
 ```bash
